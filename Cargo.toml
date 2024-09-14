@@ -1,0 +1,11 @@
+[package]
+name = "to-do-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dependencies.serde_json]
+version = "1.0.128"
+default-features = false
+features = ["alloc"]
